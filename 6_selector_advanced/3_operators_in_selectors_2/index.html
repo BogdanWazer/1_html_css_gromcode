@@ -10,6 +10,27 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="selectors.css" />
+    <style>
+      img[alt='Pollution'] {
+        border: 5px dashed red;
+      }
+      img[src$='.jpg'] {
+        margin-left: 50px;
+      }
+      li[data-description*='even'] {
+        background-color: gray;
+      }
+      li[data-description*='even'] {
+        font-size: 24px;
+      }
+      a[href^='https://']
+      {
+        color: green;
+      }
+      span[lang^='en'] {
+        font-size: 28px;
+      }
+    </style>
   </head>
 
   <body>
@@ -59,11 +80,12 @@
           <b>*=</b> проверяет вхождение строки в значение атрибута
         </li>
         <li data-description="odd rule">
-          <b>~=</b> проверяет вхождение строки как целое слово, разделенное пробелом
+          <b>~=</b> проверяет вхождение строки как целое слово, разделенное
+          пробелом
         </li>
         <li data-description="even rule">
-          <b>|=</b> значения атрибута должно начинаться с указанной строки, может отделяться дефисом
-          от остальной части
+          <b>|=</b> значения атрибута должно начинаться с указанной строки,
+          может отделяться дефисом от остальной части
         </li>
       </ul>
     </article>
@@ -71,15 +93,18 @@
     <article>
       <h2 class="page-header">Веб браузеры</h2>
       <p>
-        В мире существует несколько компаний, которые разрабатывают свои web browsers. Наиболее
-        известные это <a href="https://www.google.com">Google</a>,
+        В мире существует несколько компаний, которые разрабатывают свои web
+        browsers. Наиболее известные это
+        <a href="https://www.google.com">Google</a>,
         <a href="https://www.mozilla.org"> <span lang="en-gb">Mozilla</span></a
         >, <a href="https://www.opera.com">Opera</a>,
-        <a href="broken link https://microsoft.com"><span lang="en-gb">Microsoft</span></a
-        >, <a href="https://www.apple.com">Apple</a>. Разработчики стараются придерживаться единых
-        стандартов в своих продуктах. Все же отличия есть, их нужно
-        <span lang="ru">учитывать</span> при разработке веб сайтов. При этом существует множество
-        инструментов, которые упрощают <span lang="en">Front-End</span> разработчику жизнь;)
+        <a href="broken link https://microsoft.com"
+          ><span lang="en-gb">Microsoft</span></a
+        >, <a href="https://www.apple.com">Apple</a>. Разработчики стараются
+        придерживаться единых стандартов в своих продуктах. Все же отличия есть,
+        их нужно <span lang="ru">учитывать</span> при разработке веб сайтов. При
+        этом существует множество инструментов, которые упрощают
+        <span lang="en">Front-End</span> разработчику жизнь;)
       </p>
     </article>
   </body>
