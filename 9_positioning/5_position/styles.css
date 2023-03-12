@@ -9,15 +9,13 @@
   z-index: 999;
 }
 .nav-list {
-  line-height: 40px;
-
   margin: 0px;
   height: 100%;
   align-items: center;
 }
 
 .nav-item {
-  /* height: 40px; */
+  line-height: 40px;
   margin-left: 16px;
   display: inline-block;
   color: white;
@@ -29,7 +27,8 @@
 
 .head {
   position: relative;
-  top: calc(100% - 2500px);
+  bottom: -160px;
+  left: calc(50% - 40px);
   left: 50%;
   width: 200px;
   height: 200px;
