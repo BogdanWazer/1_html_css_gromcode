@@ -22,7 +22,7 @@
   height: 5000px;
   background-color: beige;
 }
-.head {
+/* .head {
   position: relative;
   top: calc(100%-2500);
   width: 200px;
@@ -44,4 +44,4 @@
 .eye_left {
   position: absolute;
   float: left;
-}
+} */
