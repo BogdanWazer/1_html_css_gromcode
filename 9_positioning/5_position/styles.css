@@ -12,6 +12,7 @@
 }
 
 .nav-item {
+  height: 40px;
   position: relative;
   top: 10px;
   margin-left: 16px;
