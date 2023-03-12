@@ -8,6 +8,7 @@
   background-color: darkturquoise;
   z-index: 999;
 }
+
 .nav-list {
   margin: 0px;
   height: 100%;
@@ -24,11 +25,10 @@
   height: 5000px;
   background-color: beige;
 }
-
 .head {
   position: relative;
   left: calc(50% - 100px);
-  bottom: -165px;
+  bottom: -160px;
   width: 200px;
   height: 200px;
   background-color: aquamarine;
