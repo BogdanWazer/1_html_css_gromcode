@@ -3,21 +3,21 @@
 }
 div {
   width: 20%;
-  height: 100px;
+  height: 200px;
   float: left;
 }
-.red {
+.block_red {
   background-color: red;
 }
-.green {
+.block_green {
   background-color: green;
 }
-.blue {
+.block_blue {
   background-color: blue;
 }
-.yellow {
+.block_yellow {
   background-color: yellow;
 }
-.black {
+.block_black {
   background-color: black;
 }
