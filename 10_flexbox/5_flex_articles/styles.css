@@ -10,7 +10,7 @@ header {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  min-height: 100vh;
+  height: 100vh;
 }
 .article {
   flex-direction: column;
