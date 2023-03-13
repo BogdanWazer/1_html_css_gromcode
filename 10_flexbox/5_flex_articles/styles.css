@@ -1,7 +1,6 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 header {
   display: flex;
@@ -11,12 +10,12 @@ header {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 1;
 }
 .article {
   flex-direction: column;
   flex-basis: 300px;
   flex-grow: 1;
+  height: 100vh;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
