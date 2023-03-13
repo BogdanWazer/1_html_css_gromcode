@@ -3,14 +3,17 @@ header {
   align-items: center;
   justify-content: center;
 }
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .article {
+  flex-direction: column;
+
+  flex-basis: 300px;
+  flex-grow: 1;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-}
-.articles-list {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex-basis: 300px;
 }
