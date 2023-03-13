@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 header {
   display: flex;
@@ -12,9 +12,9 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
-
 .article {
   flex-direction: column;
+
   flex-basis: 300px;
   flex-grow: 1;
   flex-shrink: 0;
