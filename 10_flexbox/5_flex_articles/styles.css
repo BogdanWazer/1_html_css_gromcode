@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 header {
   display: flex;
@@ -15,7 +16,6 @@ header {
   flex-direction: column;
   flex-basis: 300px;
   flex-grow: 1;
-
   margin: 8px;
   padding: 16px;
   background-color: bisque;
