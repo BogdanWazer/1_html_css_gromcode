@@ -47,11 +47,11 @@ h2 {
   display: flex;
   justify-content: center;
   margin-top: 16px;
-  line-height: 40px;
 }
 .news-item {
   list-style: none;
   margin: 16px;
+  line-height: 40px;
 }
 .footer {
   display: flex;
