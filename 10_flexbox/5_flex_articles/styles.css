@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 header {
   display: flex;
@@ -10,7 +11,6 @@ header {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  height: 100vh;
 }
 .article {
   flex-direction: column;
