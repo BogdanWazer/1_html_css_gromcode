@@ -10,12 +10,11 @@ header {
 }
 .articles-list {
   display: flex;
-  flex-basis: 300px;
   flex-wrap: wrap;
 }
 .article {
   flex-direction: column;
-
+  flex-basis: 300px;
   flex-grow: 1;
   margin: 8px;
   padding: 16px;
