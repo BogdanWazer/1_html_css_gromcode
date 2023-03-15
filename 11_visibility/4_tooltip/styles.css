@@ -1,6 +1,5 @@
 .gallery {
   display: flex;
-  flex-direction: column;
   cursor: all-scroll;
   overflow: auto;
 }
