@@ -1,16 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-.text {
-  display: inline;
-  margin: 16px;
-  border-bottom: 1px dotted black;
-}
-.tooltip {
+.gallery {
   display: flex;
-  bottom: -40px;
-  background-color: gray;
-  color: white;
-  border: 4px solid black;
-  padding: 8px;
+  flex-direction: column;
+  cursor: all-scroll;
+  overflow: auto;
+}
+
+img {
+  margin: 8px;
 }
