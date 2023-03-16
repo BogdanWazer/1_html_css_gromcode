@@ -30,7 +30,7 @@
   padding: 16px;
   list-style-type: none;
 }
-.dropdown:hover {
+.menu-button:hover {
   opacity: 1;
 }
 .menu-item:hover {
