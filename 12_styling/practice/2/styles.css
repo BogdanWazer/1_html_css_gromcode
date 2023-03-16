@@ -1,0 +1,15 @@
+.list {
+  font-size: 2em;
+  list-style-type: circle;
+  line-height: 30px;
+}
+
+.first {
+  text-decoration: red underline;
+  /* text-decoration-line: line-through; зачеркнуть */
+  /* text-decoration-style: wavy; волна */
+}
+.second {
+  text-decoration: overline; /* волна сверху */
+  font-size: 30px;
+}
