@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 .dropdown {
+  position: relative;
   display: inline-block;
   margin: 16px;
   padding: 16px;
@@ -11,7 +12,6 @@
   cursor: pointer;
 }
 .menu-button {
-  position: relative;
   font-size: 16px;
 }
 .menu-list {
