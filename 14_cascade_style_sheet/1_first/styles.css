@@ -12,4 +12,5 @@ html {
 }
 .properties-list__item {
   padding: 8px;
+  margin: 0;
 }
