@@ -1,0 +1,7 @@
+div {
+  background-color: blueviolet !important;
+}
+.new::first-letter {
+  color: green;
+  font-size: 24px !important;
+}
