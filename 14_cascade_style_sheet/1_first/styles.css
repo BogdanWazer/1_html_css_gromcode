@@ -7,9 +7,9 @@ html {
 .properties-list {
   color: #f39;
   list-style-type: none;
+  line-height: 32px;
+  font-size: 24px;
 }
 .properties-list__item {
-  font-size: 24px;
-  padding: 9px;
-  line-height: 32px;
+  padding: 8px;
 }
