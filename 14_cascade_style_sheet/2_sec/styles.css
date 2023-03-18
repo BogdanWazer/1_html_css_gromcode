@@ -5,5 +5,6 @@ div {
   font-size: 24px;
 }
 .new::first-letter {
-  color: green;
+  color: green !important;
+  font-size: 24px;
 }
