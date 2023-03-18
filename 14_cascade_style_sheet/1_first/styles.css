@@ -3,6 +3,7 @@ html {
 }
 .properties-list {
   line-height: 32px;
+  padding: 0;
 }
 .properties-list__item {
   padding: 8px;
