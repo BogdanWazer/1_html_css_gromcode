@@ -4,9 +4,9 @@ html {
 .properties-list {
   color: #f39;
   list-style-type: none;
-  padding: 8px;
 }
 .properties-list__item {
   font-size: 24px;
+  padding: 8px;
   line-height: 32px;
 }
