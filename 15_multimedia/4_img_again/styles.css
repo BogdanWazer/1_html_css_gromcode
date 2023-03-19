@@ -10,7 +10,7 @@
   position: relative;
 }
 .image-button {
-  width: 200px;
+  width: 250px;
   height: 50px;
   background-color: bisque;
   position: absolute;
@@ -20,6 +20,8 @@
   text-transform: uppercase;
   font-weight: 700;
   opacity: 0.5;
+  text-align: center;
+  line-height: 50px;
 }
 .image-button:hover {
   opacity: 1;
