@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	<form action="">
-		<input type="text">
-		<input type="number">
-	</form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div class="form-control">
+        <input type="text" name="lastName" value="Emerson" disabled />
+      </div>
+      <div class="form-control">
+        <input type="number" />
+      </div>
+      <div class="form-control">
+        <input type="checkbox" name="agree" />
+      </div>
+      <div class="form-control">
+        <input type="radio" name="gender" /> Male
+        <input type="radio" name="gender" /> Female
+        <input type="radio" name="gender" /> Secret
+      </div>
+      <div class="form-control">
+        <textarea
+          name="description"
+          placeholder="Type your Story..."
+        ></textarea>
+      </div>
+      <div class="form-control">
+        <button type="Submit">submit</button>
+      </div>
+    </form>
+  </body>
 </html>
