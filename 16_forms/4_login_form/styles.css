@@ -11,13 +11,10 @@ body {
   display: flex;
   margin: 0 auto;
   width: 300px;
-
+  padding: 16px;
   background-color: aqua;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   outline: none;
-}
-.login-form {
-  padding: 16px;
 }
 
 .form-control {
@@ -46,4 +43,5 @@ body {
   text-transform: uppercase;
   border-radius: 4px;
   color: white;
+  border: none;
 }
