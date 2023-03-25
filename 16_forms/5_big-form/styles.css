@@ -1,13 +1,15 @@
 * {
   box-sizing: border-box;
 }
-
-form {
-  margin: 32px;
-}
 input {
   display: block;
-  margin-top: 8px;
+  margin: 8px;
+}
+input[type='checkbox'] {
+  margin-bottom: 16px;
+}
+form {
+  margin: 32px;
 }
 .languages {
   display: inline;
