@@ -9,7 +9,9 @@ body {
 }
 .page {
   display: flex;
-  margin: 0 auto;
+  position: absolute;
+  top: calc(50% - 150px);
+  left: 50%;
   width: 300px;
   padding: 16px;
   background-color: aqua;
