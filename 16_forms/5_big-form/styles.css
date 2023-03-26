@@ -5,19 +5,19 @@
 form {
   margin: 32px;
 }
+
+div {
+  margin: 8px;
+}
+
 input {
   display: block;
-  margin-top: 8px;
 }
+
 .languages {
   display: inline;
 }
-textarea {
-  margin-left: 8px;
-}
+
 input[type='radio'] {
   display: inline-block;
-}
-select {
-  margin-left: 8px;
 }
