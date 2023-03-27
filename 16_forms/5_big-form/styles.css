@@ -9,15 +9,3 @@ form {
 div {
   margin: 8px;
 }
-
-input {
-  display: block;
-}
-
-.languages {
-  display: inline;
-}
-
-input[type='radio'] {
-  display: inline-block;
-}
