@@ -7,9 +7,15 @@ body {
   font-size: 16px;
   font-family: monospace;
 }
+
 .page {
+  display: flex;
+  height: 100%;
+}
+
+.login-form {
   display: block;
-  margin: 0 auto;
+  margin: auto;
   width: 300px;
   padding: 16px;
   background-color: aqua;
