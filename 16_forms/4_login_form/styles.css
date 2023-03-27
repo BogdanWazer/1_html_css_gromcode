@@ -14,7 +14,6 @@ body {
 }
 
 .login-form {
-  display: block;
   margin: auto;
   width: 300px;
   padding: 16px;
@@ -23,7 +22,6 @@ body {
 }
 
 .form-label {
-  /* display: inline-block; */
   padding-bottom: 4px;
 }
 
