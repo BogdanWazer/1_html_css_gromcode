@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-caption {
-  margin-bottom: 8px;
-}
-
 table {
   border-collapse: collapse;
   width: 500px;
