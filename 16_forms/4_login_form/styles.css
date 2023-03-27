@@ -34,7 +34,6 @@ body {
   width: 100%;
   height: 32px;
   border-radius: 4px;
-  padding: 4px;
   border: 1px solid #808080;
 }
 
@@ -42,7 +41,6 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
-
 
 .submit-button {
   width: 100%;
