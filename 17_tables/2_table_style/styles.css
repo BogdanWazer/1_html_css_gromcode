@@ -9,13 +9,25 @@ caption {
 table {
   border-collapse: collapse;
   width: 500px;
-  margin: 16px;
+  margin: 32px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  overflow-x: auto;
+}
+
+thead {
+  background-color: aqua;
+}
+
+td {
+  padding: 4px;
 }
 
 th,
 td {
-  padding: 4px;
+  line-height: 40px;
   text-align: right;
   border: 1px solid black;
 }
@@ -27,4 +39,8 @@ tbody > tr:nth-child(odd) {
 tbody > tr:hover {
   background-color: #aaa;
   color: white;
+}
+
+tfoot {
+  font-weight: 700;
 }
