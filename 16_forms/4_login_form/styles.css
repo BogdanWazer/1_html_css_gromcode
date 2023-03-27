@@ -23,7 +23,7 @@ body {
 }
 
 .form-label {
-  display: inline-block;
+  /* display: inline-block; */
   padding-bottom: 4px;
 }
 
