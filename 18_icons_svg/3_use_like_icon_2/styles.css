@@ -2,12 +2,14 @@
   box-sizing: border-box;
 }
 
-
 div {
   margin: 0;
   padding: 0;
 }
 
+.fa {
+  display: block;
+}
 
 .main {
   display: flex;
