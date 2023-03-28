@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .custom_button {
   fill: white;
   margin: 64px;
