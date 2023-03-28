@@ -1,4 +1,5 @@
 .custom_button {
+  fill: white;
   margin: 64px;
   width: 200px;
   height: 50px;
@@ -14,11 +15,10 @@
 }
 
 .custom_button:hover {
-  color: green;
+  color: darkcyan;
 }
 
 .custom_button:hover > .bird {
-  color: darkcyan;
   fill: green;
 }
 
