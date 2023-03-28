@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.div_16 {
+  font-size: 16px;
+}
+
+.div_32 {
+  font-size: 32px;
+}
+
+.div_64 {
+  font-size: 64px;
+}
+
+.div_128 {
+  font-size: 128px;
+}
+
+.div_256 {
+  font-size: 256px;
+}
