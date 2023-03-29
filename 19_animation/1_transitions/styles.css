@@ -6,6 +6,9 @@
 }
 
 .rect {
+  display: flex;
+  justify-content: center;
+  line-height: 100px;
   width: 100px;
   height: 100px;
   opacity: 0.5;
