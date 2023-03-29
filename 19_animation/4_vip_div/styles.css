@@ -18,6 +18,7 @@ body {
   background-color: coral;
   animation: move 2s;
   animation-timing-function: ease;
+  animation-fill-mode: forwards;
 }
 
 .text {
@@ -33,9 +34,9 @@ body {
 
 @keyframes move {
   from {
-    top: 0;
+    top: -100px;
   }
   to {
-    top: 50vh;
+    top: calc(50vh - 50px);
   }
 }
