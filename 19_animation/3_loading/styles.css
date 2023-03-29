@@ -16,7 +16,9 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+
 .rect {
+  display: block;
   position: absolute;
   width: 10px;
   height: 4px;
