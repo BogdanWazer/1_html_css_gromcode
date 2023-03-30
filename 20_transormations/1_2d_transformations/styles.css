@@ -11,6 +11,7 @@
   transform: translate(200px, 100px) rotate(45deg) scale(1.5);
 }
 .text {
+  margin-top: 150px;
   margin: 45px;
   padding: 7px;
   background-color: #faebd7;
