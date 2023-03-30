@@ -11,9 +11,8 @@
   transform: translate(200px, 100px) rotate(45deg) scale(1.5);
 }
 .text {
-  display: inline;
-  margin: 35px;
-  padding: 10px;
+  margin: 40px;
+  padding: 7px;
   background-color: #faebd7;
   border-radius: 3px;
 }
