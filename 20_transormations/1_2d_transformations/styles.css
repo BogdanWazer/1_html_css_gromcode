@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+.container {
+  height: 100vh;
+}
 .square {
   width: 100px;
   height: 100px;
