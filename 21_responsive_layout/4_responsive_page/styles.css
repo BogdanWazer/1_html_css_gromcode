@@ -11,6 +11,7 @@ html {
 body {
   height: 100vh;
 }
+
 .header {
   display: flex;
   justify-content: center;
@@ -27,7 +28,6 @@ body {
 
 .main {
   display: flex;
-  height: 100vh;
 }
 
 .navigation {
