@@ -73,8 +73,10 @@ html {
 
 .nav-list-item {
   background-color: #808080;
-  padding: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   margin-bottom: 0.5em;
+  line-height: 2em;
   color: white;
   overflow: hidden;
   white-space: nowrap;
@@ -82,6 +84,8 @@ html {
 }
 
 .nav-list-link {
+  width: 100%;
+
   color: white;
   text-decoration: none;
 }
