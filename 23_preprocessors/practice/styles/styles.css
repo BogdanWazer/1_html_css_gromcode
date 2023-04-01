@@ -1,0 +1,14 @@
+.header {
+  height: 64px;
+  background-color: yellow;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=styles.css.map */
