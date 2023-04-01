@@ -1,5 +1,6 @@
 main {
   display: flex;
+  width: 100vw;
 }
 
 picture {
@@ -8,6 +9,9 @@ picture {
 }
 
 img {
-  max-height: 100%;
+  display: flex;
+  background-size: contain;
+  clip: auto;
   min-width: 100%;
+  min-height: 100%;
 }
