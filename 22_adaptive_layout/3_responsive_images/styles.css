@@ -1,12 +1,17 @@
 main {
   display: flex;
+  width: 100vw;
 }
 
 picture {
+  display: flex;
   margin: auto;
 }
 
 img {
+  display: flex;
+  background-size: contain;
+  clip: auto;
   min-height: 100%;
   max-width: 100%;
 }
