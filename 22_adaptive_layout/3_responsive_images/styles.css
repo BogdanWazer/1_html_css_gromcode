@@ -1,6 +1,7 @@
 main {
   display: flex;
   width: 100vw;
+  height: 100vh;
 }
 
 picture {
@@ -11,7 +12,6 @@ picture {
 img {
   display: flex;
   background-size: contain;
-  clip: auto;
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
