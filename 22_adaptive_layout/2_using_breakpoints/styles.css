@@ -30,6 +30,7 @@ span {
   display: flex;
   background-color: #0ff;
   min-height: 200px;
+  flex: 1;
 }
 
 @media screen and (max-width: 600px) {
@@ -45,19 +46,11 @@ span {
 }
 
 @media screen and (min-width: 900px) {
-  .wrapper {
+  .content {
     display: flex;
   }
   .products {
     display: flex;
-  }
-  .navigation {
-    width: 1/3vw;
-  }
-  .products-list {
-    width: 1/3vw;
-  }
-  .news {
-    width: 1/3vw;
+    flex: 2;
   }
 }
