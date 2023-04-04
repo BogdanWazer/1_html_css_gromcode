@@ -2,6 +2,13 @@
   display: flex;
   position: relative;
 }
+
+@media screen and (max-width: 400px) {
+  .features {
+    display: none;
+  }
+}
+
 .features__left-decoration {
   position: absolute;
   top: 258px;
