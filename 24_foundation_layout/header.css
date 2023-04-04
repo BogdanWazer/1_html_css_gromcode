@@ -2,19 +2,117 @@
 
 .header {
   display: flex;
-  width: 1140px;
-  height: 62px;
-  margin: auto;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  padding-left: 15px;
+}
+
+.navigation {
+  display: none;
+}
+
+.header__button {
+  display: none;
+}
+
+.header__menu-button {
+  margin-left: auto;
+  height: 100%;
+  width: 58px;
+  border: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  background: transparent;
+}
+
+.header__menu-icon {
+  height: 13px;
+  width: 18px;
+  display: inline-block;
+}
+
+.logo__description {
+  display: none;
+}
+
+.logo__image {
+  width: 48px;
+  height: 48px;
+  margin-right: 13px;
+}
+
+@media screen and (min-width: 400px) {
+  .top-section {
+    padding-top: 39px;
+    background-color: #f3c6bd;
+  }
+
+  .navigation {
+    display: block;
+    margin-left: auto;
+    margin-top: 7px;
+    margin-right: 75px;
+  }
+
+  .header {
+    background-color: #f3c6bd;
+    display: flex;
+    width: 1140px;
+    height: 62px;
+    margin: auto;
+  }
+
+  .header__button {
+    display: block;
+  }
+
+  .logo__description {
+    font-size: 18px;
+    line-height: 25px;
+    color: #2b292d99;
+    opacity: 0.6;
+  }
+
+  .logo__image {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+
+  .header__menu-button {
+    display: none;
+  }
+}
+
+/* Navigation */
+
+.navigation__item {
+  color: #2b292d;
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.navigation__item:last-child {
+  margin-right: 0;
+}
+
+.navigation__item_selected {
+  font-weight: 700;
+}
+
+.navigation__arrow {
+  display: inline-block;
+  height: 5px;
+  width: 8px;
+  background-image: url(./img/Arrow.png);
+  margin-left: 11px;
 }
 
 .logo {
   display: flex;
-}
-
-.logo__image {
-  width: 60px;
-  height: 60px;
-  margin-right: 15px;
 }
 
 .logo__text {
@@ -29,18 +127,8 @@
   font-weight: 700;
 }
 
-.logo__description {
-  font-size: 18px;
-  line-height: 25px;
-  color: #2b292d99;
-  opacity: 0.6;
-}
-
 /* Button */
 
-
-
 .top-section {
-  padding-top: 39px;
   background-color: #f3c6bd;
 }
